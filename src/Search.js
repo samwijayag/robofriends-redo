@@ -1,8 +1,12 @@
 import React from 'react'
 
-const Search = () => {
+const Search = ({searchChange}) => {
 	return(
-		<input type='search' placeholder='search robots' />
+		<input 
+		type='search'
+		placeholder='search robots'
+		onChange = {searchChange}
+		/>
 	)
 }
 
